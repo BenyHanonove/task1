@@ -1,0 +1,60 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #92cce9;
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #308dbb;
+}
+
+.x-point-input,
+.y-point-input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid #92cce9;
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#result-div {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #92cce9;
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#dynamic-div {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+
+    .x-point-input,
+    .y-point-input {
+        width: calc(50% - 12px);
+    }
+}
